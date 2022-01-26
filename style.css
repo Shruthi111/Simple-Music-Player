@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+}
+body {
+  font-family: cursive;
+}
+nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 5px 10px;
+}
+nav li {
+  float: left;
+  padding: 10px;
+}
+.logo {
+  width: 50px;
+}
+span {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 1000px;
+}
+.controls {
+  background-color: black;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+}
+#displaybar {
+  width: 50vw;
+}
+.main {
+  background-color: wheat;
+  min-height: 120vh;
+  margin-top: 0vh;
+  padding: 10px;
+}
+.playlist {
+  width: 85%;
+
+  min-height: 95vh;
+  margin: 23px auto;
+  background-image: url("/Spotify Clone/bg.jpg");
+  border-radius: 20px;
+  background-size: cover;
+  color: white;
+  overflow: hidden;
+}
+.songs {
+  background-color: ivory;
+  width: 50%;
+}
+
+.songs ul li {
+  padding: 25px;
+
+  float: left;
+}
+i {
+  cursor: pointer;
+}
+#gif {
+  width: 100px;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+nav li:hover {
+  background-color: gray;
+}
